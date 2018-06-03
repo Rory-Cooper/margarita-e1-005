@@ -29,7 +29,7 @@ square(10);
 
 const sumTo=(n)=> {
   if (n!=1) {
-    return n+sumTo(n-1);
+    return Number(n)+sumTo(n-1);
   } else {
     return 1;
 }
